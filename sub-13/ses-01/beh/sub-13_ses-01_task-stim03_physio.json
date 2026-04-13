@@ -1,0 +1,61 @@
+{
+  "TaskName": "Stim 03, Attentive Condition",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "PhysioType": "eyetrack",
+  "RecordedEye": "left",
+  "SampleCoordinateUnits": "pixels",
+  "SampleCoordinateSystem": "gaze-on-screen",
+  "Columns": [
+    "timestamp",
+    "x_coordinate",
+    "y_coordinate",
+    "visual_angle_x",
+    "visual_angle_y",
+    "pupil_size",
+    "head_x",
+    "head_y",
+    "head_z"
+  ],
+  "timestamp": {
+    "Description": "Sample time since recording start",
+    "Units": "s"
+  },
+  "x_coordinate": {
+    "Description": "Gaze x-coordinate on screen (raw pixels from EyeLink)",
+    "Units": "pixels"
+  },
+  "y_coordinate": {
+    "Description": "Gaze y-coordinate on screen (raw pixels from EyeLink)",
+    "Units": "pixels"
+  },
+  "visual_angle_x": {
+    "Description": "Gaze x in visual angle",
+    "Units": "deg"
+  },
+  "visual_angle_y": {
+    "Description": "Gaze y in visual angle",
+    "Units": "deg"
+  },
+  "pupil_size": {
+    "Description": "Left pupil size in camera sensor pixel area (EyeLink area units)",
+    "Units": "camera sensor pixels"
+  },
+  "head_x": {
+    "Description": "Head position from EyeLink camera, horizontal axis",
+    "Units": "pixels"
+  },
+  "head_y": {
+    "Description": "Head position from EyeLink camera, vertical axis",
+    "Units": "pixels"
+  },
+  "head_z": {
+    "Description": "Head distance from EyeLink camera sensor",
+    "Units": "mm"
+  },
+  "Manufacturer": "SR Research",
+  "ManufacturersModelName": "EyeLink 1000 Plus",
+  "SoftwareVersions": "EyeLink 1000 v4.594",
+  "DeviceSerialNumber": "CL1-84E15",
+  "TaskDescription": "Watch educational video [ Work and the work-energy principle ] in Attentive Condition"
+}

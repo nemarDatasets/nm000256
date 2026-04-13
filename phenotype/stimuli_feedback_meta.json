@@ -1,0 +1,16 @@
+{
+  "questions": {
+    "engaging": "I found this video engaging",
+    "educational": "I learned something from this video",
+    "enjoyable": "I enjoyed this video"
+  },
+  "answers": {
+    "ans1": "Strongly Disagree",
+    "ans2": "Somewhat Disagree",
+    "ans3": "Disagree",
+    "ans4": "Neutral",
+    "ans5": "Agree",
+    "ans6": "Somewhat Agree",
+    "ans7": "Strongly Agree"
+  }
+}

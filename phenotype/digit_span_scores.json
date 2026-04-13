@@ -1,0 +1,9 @@
+{
+  "score": {
+    "description": "Score represents the maximum number of digits successfully recalled backwards in the digit span task.",
+    "range": "3 to 7"
+  },
+  "weighted_score": {
+    "description": "Weighted score takes into account the difficulty levels and performance consistency by giving more weight to scores of longer digit sequences recalled."
+  }
+}

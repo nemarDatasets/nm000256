@@ -1,0 +1,14 @@
+{
+  "onset": {
+    "description": "time (sec) of event",
+    "units": "seconds"
+  },
+  "duration": {
+    "description": "duration (sec) of event",
+    "units": "seconds"
+  },
+  "event": {
+    "start": "time when recording starts",
+    "end": "time when recording ends"
+  }
+}

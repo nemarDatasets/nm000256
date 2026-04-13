@@ -1,0 +1,51 @@
+{
+  "TaskName": "Stim 05, Attentive Condition",
+  "TaskDescription": "Watch educational video [ How Do People Measure Planets & Suns ] in Attentive Condition",
+  "InstitutionName": "City College of New York",
+  "InstitutionAddress": "85 St. Nicholas Terrace",
+  "InstitutionalDepartmentName": "Biomedical Engineering",
+  "SamplingFrequency": 128,
+  "RecordingDuration": 0.5,
+  "RecordingType": "epoched",
+  "EpochLength": 1,
+  "CogAtlasID": "https://www.cognitiveatlas.org/concept/id/trm_4a3fd79d09953/",
+  "EEGChannelCount": 64,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "PowerLineFrequency": 60,
+  "EEGPlacementScheme": "10-20",
+  "EEGReference": "none",
+  "EEGGround": "CMS and DRL electrodes (see https://www.biosemi.com/faq/cms&drl.htm)",
+  "SubjectArtefactDescription": "n/a",
+  "Manufacturer": "biosemi",
+  "ManufacturersModelName": "ActiveTwo",
+  "CapManufacturer": "EasyCap",
+  "CapManufacturersModelName": "CUCHW-TDCS",
+  "SoftwareVersions": "Matlab 2023b",
+  "SoftwareFilters": {
+    "HighPassFilter": {
+      "Frequency": "0.3Hz",
+      "FilterOrder": "5th",
+      "Filter": "butterworth",
+      "Function": "butter"
+    },
+    "NotchFilter": {
+      "Frequency": "60Hz",
+      "FilterOrder": "5th",
+      "Filter": "butterworth",
+      "Function": "butter"
+    }
+  },
+  "HardwareFilters": {
+    "LowPass": {
+      "FilterType": "5th order cascaded integrator-comb (CIC) filter response (see https://www.biosemi.com/faq/adjust_filter.htm)",
+      "FilterCutoff_Hz": "-3 dB point at 1/5th of 2048Hz"
+    },
+    "BandPass": {
+      "FilterCutoff_Hz": "0.016Hz-250Hz"
+    }
+  }
+}

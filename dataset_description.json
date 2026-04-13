@@ -1,0 +1,25 @@
+{
+  "Name": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 3",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC BY 4.0",
+  "Authors": [
+    "Jens Madsen",
+    "Nikhil Kuppa",
+    "Lucas Parra"
+  ],
+  "Acknowledgements": "We acknowledge the National Science Foundation Grant DRL-1660548 for supporting this project.",
+  "HowToAcknowledge": "Cite us",
+  "Funding": [
+    "DRL-2201835"
+  ],
+  "EthicsApprovals": [
+    "The City University of New York (CUNY) University Integrated Institutional Review Board"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Manual",
+      "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
+    }
+  ]
+}

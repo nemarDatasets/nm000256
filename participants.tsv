@@ -1,0 +1,30 @@
+participant_id	species	Sex	Age	Occupation	Tired	Study_time	GPA	Caffeine	Occupation_field
+sub-01	homosapiens	Male	23	n/a	4	20.0	n/a	n/a	n/a
+sub-02	homosapiens	Female	18	student	3	5.0	4.0	n/a	BME
+sub-03	homosapiens	Male	49	parlegaol	4	5.0	n/a	n/a	legal
+sub-04	homosapiens	Female	22	student	4	5.0	3.4	n/a	Biomedical Engineering
+sub-05	homosapiens	Female	31	server	4	0.0	0.0	n/a	science
+sub-06	homosapiens	Male	27	Construction	4	0.0	3.7	n/a	Construction
+sub-07	homosapiens	Male	18	n/a	2	7.0	0.0	n/a	n/a
+sub-09	homosapiens	Male	57	retired	2	0.0	0.0	n/a	heavy equipment operator
+sub-10	homosapiens	Female	28	student	4	2.0	3.9	n/a	biomedical engineering
+sub-11	homosapiens	Male	33	server	4	n/a	n/a	n/a	hospitality
+sub-12	homosapiens	Female	19	student	5	3.0	3.894	n/a	BME
+sub-13	homosapiens	Female	24	student	3	5.0	3.5	n/a	student
+sub-15	homosapiens	Female	23	student	5	10.0	3.0	n/a	BME
+sub-16	homosapiens	Female	21	student	3	n/a	4.92	n/a	psychology
+sub-17	homosapiens	Male	27	Inside Sales	4	4.0	4.0	n/a	Sales/Marketing
+sub-18	homosapiens	Male	20	student	3	6.0	3.72	n/a	Biomedical Engineering
+sub-19	homosapiens	Female	24	Teacher	3	3.0	3.6	n/a	Education
+sub-21	homosapiens	Female	23	student	4	3.0	3.0	n/a	engineering
+sub-22	homosapiens	Female	22	sales associate	3	1.0	3.7	n/a	retail
+sub-23	homosapiens	Female	31	phd student	4	8.0	3.85	n/a	biomedical Eng
+sub-24	homosapiens	Female	21	student	4	4.0	3.218	n/a	BME
+sub-25	homosapiens	Female	20	Student	4	5.0	3.2	n/a	Biomedical Engineering
+sub-26	homosapiens	Female	23	Undergraduate	4	1.0	2.3	n/a	Pshycology
+sub-27	homosapiens	Female	39	post doctor	5	4.0	2.0	n/a	BME
+sub-28	homosapiens	Female	20	Student	3	2.0	3.1	n/a	Psychology
+sub-29	homosapiens	Female	21	student	2	5.0	3.95	n/a	student
+sub-30	homosapiens	Female	22	Student	2	3.0	3.5	n/a	FInance
+sub-31	homosapiens	Female	22	student	4	2.0	2.9	n/a	psychology
+sub-32	homosapiens	Female	24	student	5	2.0	3.6	n/a	biology

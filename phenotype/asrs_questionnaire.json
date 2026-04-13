@@ -1,0 +1,59 @@
+{
+  "questions": {
+    "q1": "How often do you have trouble wrapping up the final details of a project, once the challenging parts have been done?",
+    "q2": "How often do you have difficulty getting things in order when you have to do a task that requires organization?",
+    "q3": "How often do you have problems remembering appointments or obligations?",
+    "q4": "When you have a task that requires a lot of thought, how often do you avoid or delay getting started?",
+    "q5": "How often do you fidget or squirm with your hands or feet when you have to sit down for a long time?",
+    "q6": "How often do you feel overly active and compelled to do things, like you were driven by a motor?",
+    "q7": "How often do you make careless mistakes when you have to work on a boring or difficult project?",
+    "q8": "How often do you have difficulty keeping your attention when you are doing boring or repetitive work?",
+    "q9": "How often do you have difficulty concentrating on what people say to you, even when they are speaking to you directly?",
+    "q10": "How often do you misplace or have difficulty finding things at home or at work?",
+    "q11": "How often are you distracted by activity or noise around you?",
+    "q12": "How often do you leave your seat in meetings or other situations in which you are expected to remain seated?",
+    "q13": "How often do you feel restless or fidgety?",
+    "q14": "How often do you have difficulty unwinding and relaxing when you have time to yourself?",
+    "q15": "How often do you find yourself talking too much when you are in social situations?",
+    "q16": "How often do you finish the sentences of people you are talking to, before they can finish them themselves?",
+    "q17": "How often do you have difficulty waiting your turn in situations when turn taking is required?",
+    "q18": "How often do you interrupt others when they are busy?"
+  },
+  "answers": {
+    "option1": "Never",
+    "option2": "Rarely",
+    "option3": "Sometimes",
+    "option4": "Often",
+    "option5": "Very Often"
+  },
+  "scoring": {
+    "dichotomous_screener_score": {
+      "description": "Score derived from the dichotomous (0-1) responses of the screener items, used to quickly assess ADHD risk.",
+      "threshold": "Threshold for high symptoms: 4 or more."
+    },
+    "dichotomous_full_score": {
+      "description": "Score derived from the dichotomous (0-1) responses of the full ASRS test. This score provides a broader assessment of ADHD symptoms.",
+      "threshold": "Threshold for high symptoms: 4 or more in screener test."
+    },
+    "likert_screener_score": {
+      "description": "Score derived from the Likert (0-4) responses of the screener items, capturing the severity of ADHD symptoms in more nuanced detail.",
+      "threshold": "Low: 0-9; Mild to Moderate: 10-13; High: 14-17; Very High: 18-24"
+    },
+    "likert_full_score": {
+      "description": "Score derived from the Likert (0-4) responses of the full ASRS test, providing a more detailed assessment of ADHD-related symptoms.",
+      "threshold": "Low: 0-30; Mild to Moderate: 31-39; High: 40-49; Very High: 50-72"
+    },
+    "hyperactivity_subscore": {
+      "description": "Subscore based on the hyperactivity-related questions in the ASRS, reflecting symptoms of hyperactivity such as restlessness and fidgeting.",
+      "threshold": "Threshold for high symptoms: 18 or more (for the full scale)."
+    },
+    "inattention_subscore": {
+      "description": "Subscore based on the inattention-related questions in the ASRS, reflecting symptoms of inattention like distractibility and forgetfulness.",
+      "threshold": "Threshold for high symptoms: 18 or more (for the full scale)."
+    },
+    "references": {
+      "a": "https://www.hcp.med.harvard.edu/ncs/ftpdir/adhd/ASRS_v1.1_screener(6Q)_scoring_update.pdf",
+      "b": "https://novopsych.com.au/assessments/diagnosis/adult-adhd-self-report-scale-asrs/"
+    }
+  }
+}

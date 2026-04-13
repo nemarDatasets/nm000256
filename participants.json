@@ -1,0 +1,49 @@
+{
+  "participant_id": {
+    "Description": "unique identifier for the participant"
+  },
+  "species": {
+    "Description": "species of the participant",
+    "Levels": {
+      "homosapiens": "human"
+    }
+  },
+  "Sex": {
+    "Description": "sex of the participant as reported by the participant",
+    "Levels": {
+      "Male": "male",
+      "Female": "female"
+    }
+  },
+  "Age": {
+    "Description": "age of the participant",
+    "Units": "years"
+  },
+  "Occupation": {
+    "Description": "occupation of the participant"
+  },
+  "Tired": {
+    "Description": "current state of tiredness of the participant",
+    "Levels": {
+      "VeryAwake": "not tired at all",
+      "Awake": "feeling awake",
+      "Moderate": "moderate level of tiredness",
+      "Tired": "feeling tired",
+      "VeryTired": "extremely tired"
+    }
+  },
+  "Study_time": {
+    "Description": "number of hours the participant studied",
+    "Units": "hours"
+  },
+  "GPA": {
+    "Description": "Grade Point Average of the participant"
+  },
+  "Caffeine": {
+    "Description": "Time since last caffeine consumption of the participant",
+    "Units": "Hours"
+  },
+  "Occupation_field": {
+    "Description": "field of occupation of the participant"
+  }
+}

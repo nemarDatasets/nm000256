@@ -1,0 +1,17 @@
+{
+  "TaskName": "Stim 04, Distracted Condition",
+  "TaskDescription": "Watch educational video [ Dielectrics in capacitors Circuits ] in Distracted Condition",
+  "SamplingFrequency": 128,
+  "StartTime": 0,
+  "Columns": [
+    "rawECG"
+  ],
+  "Manufacturer": "BioSemi",
+  "ManufacturersModelName": "Active Two",
+  "SoftwareVersions": "ActiView v8.0",
+  "DeviceSerialNumber": "ADC6-04-90",
+  "rawECG": {
+    "Description": "raw ecg value",
+    "Units": "mV"
+  }
+}
