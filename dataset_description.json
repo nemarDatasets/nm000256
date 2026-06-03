@@ -21,5 +21,7 @@
       "Name": "Manual",
       "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
     }
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000256",
+  "Version": "1.0.0"
 }
