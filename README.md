@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000256-blue)](https://doi.org/10.82901/nemar.nm000256)
+
 # The Brain, Body, and Behaviour Dataset - Experiment 3
 ## Summary:
 
