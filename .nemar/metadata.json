@@ -1,0 +1,82 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jens Madsen": {},
+    "Nikhil Kuppa": {},
+    "Lucas Parra": {}
+  },
+  "funding_references": [
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-1660548"
+    },
+    {
+      "funder_name": "National Science Foundation",
+      "award_number": "DRL-2201835"
+    }
+  ],
+  "title": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 3",
+  "license": "CC BY 4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "beh",
+    "eeg"
+  ],
+  "resource_type_specific": "Neuroimaging Dataset",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000256",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000256",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "sizes": [
+    "7.44 GB (4241 files)"
+  ],
+  "formats": [
+    ".bdf",
+    ".gz",
+    ".json",
+    ".md",
+    ".sh",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "Multimodal dataset of 29 participants watching six educational videos under two attention conditions: an attentive session with subsequent factual memory tests, and a distracted session in which participants silently counted backwards. Recordings include EEG, EOG, ECG, eye tracking (gaze, pupil size, blinks, saccades) and head position. Videos cover three presentation styles, and questionnaires (video-related questions and the ASRS adult ADHD checklist) are provided. This is Experiment 3, in which participants knew they would be tested (intentional learning).",
+  "methods_description": "Participants watched six informational videos, two from each of three presentation styles (presenter with animation, presenter with glassboard, animation with writing hand). In session 1 they were attentive and answered 11-12 multiple-choice questions after each video. In session 2 they rewatched the videos in the same order while silently counting backwards from a random prime number in steps of 7. EEG, EOG, ECG, head motion, gaze coordinates and pupil size were recorded. EEG was converted to BDF and physiological and eye-tracking data to tsv.gz using MATLAB.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "eye tracking"
+    },
+    {
+      "term": "Electrocardiography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004562"
+    },
+    {
+      "term": "Electrooculography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004585"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "video learning"
+    },
+    {
+      "term": "intentional learning"
+    }
+  ],
+  "source_hash": "3121b3b0e285013e1304ddd54678b4fac5919cebacc01026ada1c7264c601f1f"
+}
