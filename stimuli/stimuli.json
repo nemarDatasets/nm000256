@@ -1,0 +1,43 @@
+{
+  "stim_id": {
+    "Description": "Stimulus identifier; equal to the BIDS task label (task-stimNN) of the recordings that show it."
+  },
+  "task": {
+    "Description": "BIDS task label of the recordings that show this stimulus."
+  },
+  "source_title": {
+    "Description": "Title of the source work or upload."
+  },
+  "source_id": {
+    "Description": "Identifier of the source (YouTube id, archive or deposit identifier, clip name)."
+  },
+  "source_url": {
+    "Description": "Where the source can be obtained (official page, upload or deposit). Not a copy made by us."
+  },
+  "rights": {
+    "Description": "Rights note. 'third-party; not included': the video belongs to its rights holder and is not part of this dataset."
+  },
+  "presented_duration_s": {
+    "Description": "Presented duration measured from this dataset's own start/end markers (median over recordings).",
+    "Units": "s"
+  },
+  "source_duration_s": {
+    "Description": "Duration of the source upload or file named in source_id.",
+    "Units": "s"
+  },
+  "source_in_s": {
+    "Description": "Where the presentation starts inside the YouTube upload; n/a when not verifiable.",
+    "Units": "s"
+  },
+  "verification": {
+    "Description": "How identity and timing were checked."
+  },
+  "confidence": {
+    "Description": "Confidence in identity and timing.",
+    "Levels": {
+      "verified": "identity and start checked against this dataset's pupil data",
+      "likely": "identity verified; start from video content, one weak pupil anchor",
+      "unknown": "identity from the documentation only; start or presented version not verifiable"
+    }
+  }
+}

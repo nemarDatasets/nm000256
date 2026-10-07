@@ -1,0 +1,5 @@
+Metadata update 2026-10-08
+  - README: mosquito video link corrected from 9w-5wJYVmcw to e0NT9i4Qnak (Sci Data 2026 Table 2, BBBD website, memory-quiz content); see README.
+  - Added stimuli/stimuli.tsv and stimuli.json: one row per stimulus task (YouTube id, presented duration, upload length, verified start offset); no media added.
+  - README: section 'Stimuli'.
+  - dataset_description.json: GeneratedBy entry for this enrichment.
