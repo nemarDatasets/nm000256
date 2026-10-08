@@ -147,7 +147,15 @@ current upload and, where verified, where the presentation starts inside the upl
 uploads (standard YouTube licence); watch them at the listed links.
 
 Known timing facts:
-- The presented versions are edited: stim01 261.0 s of 300.3 s; stim02 362.8 s of 385.1 s; stim03 342.6 s of 347.4 s; stim04 385.5 s of 386.8 s; stim05 262.4 s of 279.0 s. stim06 was shown for 268.45 s in every recording, longer than the 191.6-s upload: the presented version is not this upload.
+- The presented versions are edited: stim01 261.0 s of 300.3 s; stim02 362.8 s of 385.1 s; stim03 342.6 s of 347.4 s; stim04 385.5 s of 386.8 s; stim05 262.4 s of 279.0 s. stim06 was shown for 268.45 s in every recording, longer than the 191.6-s upload: the presented version is about 90 s of other material followed by the first 178.6 s of this upload (see below).
 - Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil
   constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):
-  stim01: 10.8 s; stim02: 2.85 s; stim03: 1.25 s; stim04: not verifiable; stim05: not verifiable; stim06: not verifiable.
+  stim01: 10.8 s; stim02: 2.85 s; stim03: 1.25 s.
+- stim04 and stim05 have nearly constant luminance, so the pupil cannot place them. Gaze can: the median gaze x/y of all
+  recordings follows where the picture changes (motion centroid of the upload), 0.4 s later (lag checked on stim02/stim03
+  and other BBBD videos with pupil-verified starts). stim04: 1.25 s (gaze r 0.60, other uploads <= 0.21); the presentation
+  then ends exactly at the end of the upload. stim05: 7.7 s (gaze r 0.55, other uploads <= 0.33).
+- stim06: gaze matches the upload from about 90 s into the presentation to its end, at upload time = presented time - 89.9 s
+  (from 100 s on, p < 0.05 against random offsets in 11 of 16 10-s windows, as for videos with known starts; the same in
+  experiment 4). The first ~90 s show other
+  material that is not public (the quiz items on alcohol/aldehyde and graph values may come from it).
