@@ -16,7 +16,7 @@
 -------------------------------------------------------------------------------------------------------------------------------------------
 | **Stimulus ID** | **Name**                                                    | **URL**                                                 |
 |-----------------|-------------------------------------------------------------|---------------------------------------------------------|
-| Stim-01         | What If We Killed All the Mosquitoes                        | [Watch Here](https://www.youtube.com/embed/9w-5wJYVmcw) |
+| Stim-01         | What If We Killed All the Mosquitoes                        | [Watch Here](https://www.youtube.com/embed/e0NT9i4Qnak) |
 | Stim-02         | Are We All Related                                          | [Watch Here](https://www.youtube.com/embed/mnYSMhR3jCI) |
 | Stim-03         | Work and the Work-Energy Principle                          | [Watch Here](https://www.youtube.com/embed/30o4omX5qfo) |
 | Stim-04         | Dielectrics in Capacitors Circuits                          | [Watch Here](https://www.youtube.com/embed/rkntp3_cZl4) |
@@ -130,3 +130,40 @@ The table below is a breakdown on the total minutes of raw data available for ea
 | Pupil                      | 110.56  |             
 | Respiration                | 44.2    |            
 ----------------------------------------
+
+Correction (2026-10-08): the mosquito video was listed above as YouTube `9w-5wJYVmcw` ("What If We Killed All Mosquitoes?",
+channel What If). The presented video is `e0NT9i4Qnak` ("What Would Happen if Mosquitoes Went Extinct?", SciShow): this id is
+given by the data paper (Madsen et al. 2026, Sci Data, https://doi.org/10.1038/s41597-026-07215-1, Table 2) and embedded by
+the BBBD website (`bbbd.pythonanywhere.com/static/experiments_script.js`), and every specific fact asked in the mosquito
+memory quiz (`mosquitoes_quiz.tsv`: Wolbachia, "over 3,000 species", self-limiting gene, DDT, biomass) is in e0NT9i4Qnak and
+not in 9w-5wJYVmcw. The link in the table now points to e0NT9i4Qnak; the title in the table and in the sidecars is the
+authors' label for it. (Table 2 lists 4:47, which is the length of 9w-5wJYVmcw; e0NT9i4Qnak is 5:00.)
+
+## Stimuli
+
+Added 2026-10-08 (metadata only; no video is included). `stimuli/stimuli.tsv` has one row per stimulus task (`stimNN`):
+YouTube id, the presented duration (`end - start` in `*_events.tsv`, the same in every recording), the length of the
+current upload and, where verified, where the presentation starts inside the upload. The videos are third-party YouTube
+uploads (standard YouTube licence); watch them at the listed links.
+
+Known timing facts:
+- The presented versions are edited: stim01 261.0 s of 300.3 s; stim02 362.8 s of 385.1 s; stim03 342.6 s of 347.4 s; stim04 385.5 s of 386.8 s; stim05 262.4 s of 279.0 s. stim06 was shown for 268.45 s in every recording, longer than the 191.6-s upload: the presented version is about 90 s of other material followed by the first 178.6 s of this upload (see below).
+- Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil
+  constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):
+  stim01: 10.8 s; stim02: 2.85 s; stim03: 1.25 s.
+- stim04 and stim05 have nearly constant luminance, so the pupil cannot place them. Gaze can: the median gaze x/y of all
+  recordings follows where the picture changes (motion centroid of the upload), 0.4 s later (lag checked on stim02/stim03
+  and other BBBD videos with pupil-verified starts). stim04: 1.25 s (gaze r 0.60, other uploads <= 0.21); the presentation
+  then ends exactly at the end of the upload. stim05: 7.7 s (gaze r 0.55, other uploads <= 0.33).
+- stim06: gaze matches the upload from about 90 s into the presentation to its end, at upload time = presented time - 89.9 s
+  (from 100 s on, p < 0.05 against random offsets in 11 of 16 10-s windows, as for videos with known starts; the same in
+  experiment 4). The first ~90 s show other
+  material that is not public (the quiz items on alcohol/aldehyde and graph values may come from it).
+
+Provenance check (2026-10-09, public records only): (1) the authors' own first commit of the BBBD repository
+(github.com/madjens/bbbd-dataset, commit ca94c361, `config/readmes/experiment3_README.md`) already names `e0NT9i4Qnak` for
+the mosquito video, so the id above is the authors' and `9w-5wJYVmcw` was a later substitution in the NEMAR README; only
+the start inside the upload (10.8 s) is inferred. (2) The enzyme upload `lkRZKqDdwzU` was not shortened after the
+recordings: the Wayback Machine capture of 26 July 2022 of its watch page already lists `lengthSeconds` 192 (upload date
+2014-05-04), so the first ~90 s of the 268.5-s presentation came from another source or a local edit, not from a longer
+version of this upload.

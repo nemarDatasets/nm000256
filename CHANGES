@@ -1,0 +1,7 @@
+1.0.1 2026-10-08
+  - README: mosquito video link corrected from 9w-5wJYVmcw to e0NT9i4Qnak (Sci Data 2026 Table 2, BBBD website, memory-quiz content); see README.
+  - Added stimuli/stimuli.tsv and stimuli.json: one row per stimulus task (YouTube id, presented duration, upload length, verified start offset); no media added.
+  - README: section 'Stimuli'.
+  - dataset_description.json: GeneratedBy entry for this enrichment.
+  - stimuli.tsv/README: start of stim04 (1.25 s) and stim05 (7.7 s) inside the uploads from gaze vs picture motion; stim06 = ~90 s of other material + upload 0-178.6 s.
+  - 2026-10-09 README: provenance check of the mosquito id (the authors' first repository commit names e0NT9i4Qnak) and of the enzyme upload length (already 192 s in a July 2022 Wayback capture).
