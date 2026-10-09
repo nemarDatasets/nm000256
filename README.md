@@ -159,3 +159,11 @@ Known timing facts:
   (from 100 s on, p < 0.05 against random offsets in 11 of 16 10-s windows, as for videos with known starts; the same in
   experiment 4). The first ~90 s show other
   material that is not public (the quiz items on alcohol/aldehyde and graph values may come from it).
+
+Provenance check (2026-10-09, public records only): (1) the authors' own first commit of the BBBD repository
+(github.com/madjens/bbbd-dataset, commit ca94c361, `config/readmes/experiment3_README.md`) already names `e0NT9i4Qnak` for
+the mosquito video, so the id above is the authors' and `9w-5wJYVmcw` was a later substitution in the NEMAR README; only
+the start inside the upload (10.8 s) is inferred. (2) The enzyme upload `lkRZKqDdwzU` was not shortened after the
+recordings: the Wayback Machine capture of 26 July 2022 of its watch page already lists `lengthSeconds` 192 (upload date
+2014-05-04), so the first ~90 s of the 268.5-s presentation came from another source or a local edit, not from a longer
+version of this upload.
