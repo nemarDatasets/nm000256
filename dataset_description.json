@@ -20,8 +20,13 @@
     {
       "Name": "Manual",
       "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
+    },
+    {
+      "Name": "NeuralBench video-stimulus metadata enrichment",
+      "Version": "2026-10-08",
+      "Description": "Metadata only, no media files: stimulus table (stimuli/stimuli.tsv), README section 'Stimuli' and the changes listed in CHANGES under 2026-10-08. Facts and sources are in the README section. Prepared by Bruno Aristimunha (NeuralBench video work); the videos stay with their rights holders."
     }
   ],
   "DatasetDOI": "10.82901/nemar.nm000256",
-  "Version": "1.0.0"
+  "Version": "1.0.1"
 }
